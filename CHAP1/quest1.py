@@ -6,7 +6,6 @@ def evaluate_f1_components(tp, fp, fn):
     :param fp: Description
     :param fn: Description
     """
-    # check typeError using isinstance
     if not isinstance(tp, int): 
         raise TypeError("tp must be int")
     if not isinstance(fp, int):
